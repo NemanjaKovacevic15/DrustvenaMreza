@@ -11,7 +11,7 @@ import static javax.persistence.GenerationType.IDENTITY;
  */
 // This class represents wall comments persisted to the wall table in the database
 @Entity
-@Table(name = "wall", catalog = "individual_project", uniqueConstraints = @UniqueConstraint(columnNames = { "wall_owner", "comment_owner" }))
+@Table(name = "wall", catalog = "drustvena_mreza", uniqueConstraints = @UniqueConstraint(columnNames = { "wall_owner", "comment_owner" }))
 public class Wall implements Serializable {
     // Variables
     @Id
