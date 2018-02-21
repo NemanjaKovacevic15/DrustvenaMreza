@@ -18,7 +18,7 @@ import java.util.Set;
  * @author Nemanja
  */
 @Entity
-@Table(name="users", catalog = "individual_project")
+@Table(name="users", catalog = "drustvena_mreza")
 public class User implements Serializable {
     //Variables
     @Column(name="id")// Identifies Columns within Table
