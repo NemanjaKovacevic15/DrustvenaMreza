@@ -11,7 +11,7 @@ import static javax.persistence.GenerationType.IDENTITY;
  * @author Nemanja
  */
 @Entity
-@Table(name = "friendship", catalog = "individual_project", uniqueConstraints = @UniqueConstraint(columnNames = { "user_one_id", "user_two_id" }))
+@Table(name = "friendship", catalog = "drustvena_mreza", uniqueConstraints = @UniqueConstraint(columnNames = { "user_one_id", "user_two_id" }))
 public class Friendship implements Serializable{
     // Variables
     @Id
