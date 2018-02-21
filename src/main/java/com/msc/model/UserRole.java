@@ -11,7 +11,7 @@ import static javax.persistence.GenerationType.IDENTITY;
  */
 // it specifies the user roles associated with each user account for Authentication and security reasons
 @Entity
-@Table(name = "user_roles", catalog = "individual_project", uniqueConstraints = @UniqueConstraint(columnNames = { "role", "username" }))
+@Table(name = "user_roles", catalog = "drustvena_mreza", uniqueConstraints = @UniqueConstraint(columnNames = { "role", "username" }))
 public class UserRole{
 
     // Variables
